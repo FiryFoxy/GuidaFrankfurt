@@ -1,4 +1,4 @@
-const CACHE_VERSION = '10';
+const CACHE_VERSION = '11';
 const CACHE_NAME = `frankfurt-guide-${CACHE_VERSION}`;
 
 const PRECACHE = [
@@ -30,6 +30,14 @@ const PRECACHE = [
     'sections/culture.html',
     'sections/food.html',
     'sections/dishes.html',
+    'assets/images/dishes/frankfurter-wurst.jpg',
+    'assets/images/dishes/gruene-sosse.jpg',
+    'assets/images/dishes/handkaes.jpg',
+    'assets/images/dishes/schnitzel.jpg',
+    'assets/images/dishes/currywurst.jpg',
+    'assets/images/dishes/apfelwein.jpg',
+    'assets/images/dishes/brezel.jpg',
+    'assets/images/dishes/sauerbraten.jpg',
     'sections/nightlife.html',
     'sections/shopping.html',
     'sections/excursions.html',

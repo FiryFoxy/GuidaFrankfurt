@@ -332,7 +332,7 @@
                 if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.note, 'text-[#D97757] bg-orange-50')).join('') || emptyMsg();
             } else if (tabId === 'nightlife') {
                 const grid = document.getElementById('nightlife-grid');
-                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-[#163A5F] text-white', p.highlight, 'text-[#DBEAFE] bg-[#2563B8]')).join('') || emptyMsg();
+                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-[#163A5F] text-white', p.highlight, 'text-[#DBEAFE] bg-[#2563B8]', 'border border-[#2563B8]/50 shadow-md')).join('') || emptyMsg();
             } else if (tabId === 'shopping') {
                 const grid = document.getElementById('shopping-grid');
                 if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.note, 'text-[#1E4A7A] bg-yellow-50')).join('') || emptyMsg();
@@ -397,11 +397,11 @@
             });
         }
 
-        function createCard(place, bgClass, badgeText, badgeStyle = 'text-gray-500') {
+        function createCard(place, bgClass, badgeText, badgeStyle = 'text-gray-500', borderClass = 'border border-gray-100') {
             const fav = window.planner.isFavorite(place.id);
             const hasUrl = place.url && !place.url.startsWith('#');
             return `
-                <article class="place-card ${bgClass} p-6 rounded-2xl shadow-sm flex flex-col h-full border border-gray-100 relative">
+                <article class="place-card ${bgClass} p-6 rounded-2xl shadow-sm flex flex-col h-full ${borderClass} relative">
                     <div class="flex justify-between items-start mb-4">
                         <span class="text-4xl">${place.icon}</span>
                         <div class="flex gap-1 flex-wrap justify-end">
