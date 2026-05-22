@@ -1,0 +1,152 @@
+[
+  {
+    "id": "shop-kleinmarkthalle",
+    "category": "shopping",
+    "title": "Kleinmarkthalle",
+    "desc": "Mercato coperto con oltre 60 bancarelle: formaggi, salumi, spezie, vino e prodotti regionali. Ideale per spesa gourmet e pranzo veloce.",
+    "icon": "🥐",
+    "note": "Mercato coperto",
+    "hours": "Lun-Ven 08:00–18:00 · Sab 08:00–16:00",
+    "url": "https://www.kleinmarkthalle.de/"
+  },
+  {
+    "id": "shop-zeil",
+    "category": "shopping",
+    "title": "Zeil",
+    "desc": "Via commerciale pedonale più famosa: catene internazionali, department store e grandi centri. Cuore dello shopping in centro.",
+    "icon": "🛍️",
+    "note": "Shopping street",
+    "hours": "Negozi lun-sab ~10:00–20:00",
+    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/shopping/zeil"
+  },
+  {
+    "id": "shop-myzeil",
+    "category": "shopping",
+    "title": "MyZeil",
+    "desc": "Centro commerciale con architettura spettacolare e cupola di vetro: moda, elettronica, food court e vista sulla città dal tetto.",
+    "icon": "🏬",
+    "note": "Shopping center",
+    "hours": "Lun-Sab 10:00–21:00 · Dom chiuso",
+    "url": "https://www.myzeil.de/"
+  },
+  {
+    "id": "shop-flohmarkt",
+    "category": "shopping",
+    "title": "Flohmarkt am Mainufer",
+    "desc": "Mercatino dell'usato sul lungofiume (spesso sabato): vintage, libri, vinili e curiosità. Arriva presto per le occasioni migliori.",
+    "icon": "🧺",
+    "note": "Solo sabato",
+    "hours": "Sabato ~08:00–14:00 (stagionale)",
+    "url": "https://www.frankfurt-tourismus.de/"
+  },
+  {
+    "id": "shop-nordwest",
+    "category": "shopping",
+    "title": "Nordwestzentrum",
+    "desc": "Grande centro commerciale a nord-ovest: cinema, negozi, supermercato e ristorazione. Comodo in giornate di pioggia.",
+    "icon": "🏢",
+    "note": "Grande mall",
+    "hours": "Lun-Sab 10:00–20:00 · Dom 13:00–18:00",
+    "url": "https://www.nordwestzentrum.de/"
+  },
+  {
+    "id": "shop-kleinmarkt",
+    "category": "shopping",
+    "title": "Kleinmarkthalle (prodotti)",
+    "desc": "Porta via specialità frankfurter: Handkäs, Frankfurter Würstchen, senape e sidro in bottiglia — ottimi souvenir gastronomici.",
+    "icon": "🧀",
+    "note": "Specialità locali",
+    "hours": "Come Kleinmarkthalle",
+    "url": "https://www.kleinmarkthalle.de/"
+  },
+  {
+    "id": "shop-palmengarten",
+    "category": "shopping",
+    "title": "Palmengarten",
+    "desc": "Giardino botanico con serre tropicali, rose e laghetti. Shop con piante e regali; perfetto per una domenica rilassante.",
+    "icon": "🌴",
+    "note": "Giardino botanico",
+    "hours": "Feb–ott 09:00–18:00 · nov–gen 09:00–16:00",
+    "url": "https://www.palmengarten.de/"
+  },
+  {
+    "id": "shop-mainkai",
+    "category": "shopping",
+    "title": "Museumsufer Flohmarkt",
+    "desc": "Antiquariato e oggetti vintage lungo Schaumainkai, di solito il sabato mattina. Atmosfera unica con vista sul Meno.",
+    "icon": "🏺",
+    "note": "Antiquariato",
+    "hours": "Sabato ~08:00–14:00",
+    "url": "https://www.frankfurt-tourismus.de/"
+  },
+  {
+    "id": "shop-galeria",
+    "category": "shopping",
+    "title": "Galeria Kaufhof (Zeil)",
+    "desc": "Department store su più piani: moda, cosmetici, casa e food hall. Utile per acquisti rapidi in centro.",
+    "icon": "👜",
+    "note": "Department store",
+    "hours": "Lun-Sab 10:00–20:00",
+    "url": "https://www.galeria.de/"
+  },
+  {
+    "id": "shop-berger",
+    "category": "shopping",
+    "title": "Berger Straße (Bornheim)",
+    "desc": "Viale commerciale nel Nordend: boutique indipendenti, bar, mercatini e atmosfera bohémien. Ottimo per passeggiare.",
+    "icon": "☕",
+    "note": "Quartiere",
+    "hours": "Negozi lun-sab ~10:00–19:00",
+    "url": "https://www.frankfurt-tourismus.de/"
+  },
+  {
+    "id": "shop-euroshop",
+    "category": "shopping",
+    "title": "Primark / C&A (Zeil)",
+    "desc": "Fast fashion a prezzi bassi sulla Zeil: utile per capi base, accessori e biancheria senza spendere troppo.",
+    "icon": "👕",
+    "note": "Economico",
+    "hours": "Lun-Sab 10:00–20:00",
+    "url": "https://www.zeil.de/"
+  },
+  {
+    "id": "shop-buchhandlung",
+    "category": "shopping",
+    "title": "Hugendubel (Zeil)",
+    "desc": "Libreria su più piani con libri in tedesco e inglese, manga, stationery e zona Erasmus per testi universitari.",
+    "icon": "📚",
+    "note": "Libri",
+    "hours": "Lun-Sab 10:00–20:00 · Dom 12:00–18:00",
+    "url": "https://www.hugendubel.de/"
+  },
+  {
+    "id": "shop-kleinmarkt-sachsen",
+    "category": "shopping",
+    "title": "Schweizer Straße (Sachsenhausen)",
+    "desc": "Via del «Dorf»: negozi di artigianato, vino, Apfelwein e ristoranti. Shopping più autentico rispetto alla Zeil turistica.",
+    "icon": "🍷",
+    "note": "Quartiere",
+    "hours": "Negozi lun-sab ~10:00–19:00",
+    "url": "https://www.frankfurt-tourismus.de/"
+  },
+  {
+    "id": "shop-main-taunus",
+    "category": "shopping",
+    "title": "Main-Taunus-Zentrum",
+    "desc": "Centro commerciale fuori città (S-Bahn S1/S2): oltre 100 negozi, cinema e parcheggio. Ideale per grandi acquisti.",
+    "icon": "🛒",
+    "note": "Outlet area",
+    "hours": "Lun-Sab 10:00–20:00 · Dom 13:00–18:00",
+    "url": "https://www.main-taunus-zentrum.de/"
+  },
+  {
+    "id": "shop-roemer",
+    "category": "shopping",
+    "title": "Souvenir Römerberg",
+    "desc": "Bancarelle turistiche in piazza Römer: magneti, tazze, Grüne-Soße mix e gadget «Mainhattan». Prezzi da contrattare con calma.",
+    "icon": "🎁",
+    "note": "Souvenir",
+    "hours": "Tutti i giorni in stagione turistica",
+    "url": "https://www.frankfurt-tourismus.de/"
+  }
+]

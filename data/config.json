@@ -1,0 +1,23 @@
+{
+  "title": "Erasmus a Francoforte",
+  "subtitle": "1 settembre 2026 – 31 gennaio 2027 · semestre invernale a Francoforte",
+  "erasmus": {
+    "start": "2026-09-01",
+    "end": "2027-01-31"
+  },
+  "tabs": [
+    { "id": "intro", "label": "Home", "shortLabel": "Home", "icon": "🏠" },
+    { "id": "weather", "label": "Meteo", "shortLabel": "Meteo", "icon": "🌤️" },
+    { "id": "vocabulary", "label": "Vocabolario", "shortLabel": "Lingua", "icon": "🗣️" },
+    { "id": "culture", "label": "Cultura & Musei", "shortLabel": "Cultura", "icon": "🏛️" },
+    { "id": "food", "label": "Ristoranti", "shortLabel": "Ristoranti", "icon": "🍽️" },
+    { "id": "dishes", "label": "Piatti tradizionali", "shortLabel": "Piatti", "icon": "🥘" },
+    { "id": "nightlife", "label": "Bar & Serate", "shortLabel": "Bar", "icon": "🍻" },
+    { "id": "shopping", "label": "Shopping", "shortLabel": "Shop", "icon": "🛍️" },
+    { "id": "excursions", "label": "Gite Fuori Porta", "shortLabel": "Gite", "icon": "🚂" },
+    { "id": "map", "label": "Mappa", "shortLabel": "Mappa", "icon": "🗺️" },
+    { "id": "program", "label": "Programma", "shortLabel": "Programma", "icon": "✅" },
+    { "id": "planner", "label": "Planner", "shortLabel": "Planner", "icon": "🗓️" }
+  ],
+  "placeFiles": ["culture", "food", "nightlife", "shopping", "excursions"]
+}

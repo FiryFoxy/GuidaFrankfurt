@@ -1,0 +1,152 @@
+[
+  {
+    "id": "food-kleinmarkthalle",
+    "category": "food",
+    "title": "Kleinmarkthalle",
+    "desc": "Mercato coperto nel centro: bancarelle di salumi, formaggi, pesce, vino e street food. Perfetto per pranzo veloce o spesa gourmet.",
+    "icon": "🥐",
+    "note": "Mercato coperto",
+    "hours": "Lun-Ven 08:00–18:00 · Sab 08:00–16:00 · Dom chiuso",
+    "url": "https://www.kleinmarkthalle.de/"
+  },
+  {
+    "id": "food-apfelwein-wagner",
+    "category": "food",
+    "title": "Apfelwein Wagner",
+    "desc": "Locale storico a Sachsenhausen per assaggiare l'Ebbelwoi (sidro di mele) con piatti hessiani: Handkäs mit Musik, Grüne Soße e salsicce.",
+    "icon": "🍎",
+    "note": "Apfelwein & Hessisch",
+    "hours": "Tutti i giorni 11:00–24:00 · cucina fino 22:00",
+    "url": "https://www.apfelwein-wagner.com/"
+  },
+  {
+    "id": "food-lorsbacher",
+    "category": "food",
+    "title": "Zum Lorsbacher",
+    "desc": "Tradizionale Wirtshaus in Sachsenhausen: ambiente rustico, birra locale e menu della regione. Ottimo per la prima cena «alla frankfurter».",
+    "icon": "🍺",
+    "note": "Wirtshaus",
+    "hours": "Lun-Sab 11:00–23:00 · Dom 11:00–22:00",
+    "url": "https://www.zum-lorsbacher.de/"
+  },
+  {
+    "id": "food-ernst",
+    "category": "food",
+    "title": "Restaurant Ernst",
+    "desc": "Fine dining creativo (stella Michelin): esperienza gastronomica d'eccellenza. Prenotazione obbligatoria, budget da pianificare.",
+    "icon": "✨",
+    "note": "Alta cucina",
+    "hours": "Mar-Sab cena · orari su prenotazione",
+    "url": "https://www.restaurant-ernst.de/"
+  },
+  {
+    "id": "food-kanonesteppel",
+    "category": "food",
+    "title": "Zur Kanonesteppel",
+    "desc": "Storico ristorante nel centro con cucina tedesca e internazionale, sala in stile classico. Buona scelta per gruppi Erasmus.",
+    "icon": "🍽️",
+    "note": "Tradizionale",
+    "hours": "Lun-Sab 11:30–23:00 · Dom 12:00–22:00",
+    "url": "https://www.zurkanonesteppel.de/"
+  },
+  {
+    "id": "food-vietnam",
+    "category": "food",
+    "title": "Vietnam Deluxe",
+    "desc": "Cucina vietnamita informale e molto frequentata da studenti: pho, bun e roll a prezzi accessibili vicino alla Hauptwache.",
+    "icon": "🍜",
+    "note": "Asiatico economico",
+    "hours": "Lun-Dom 11:00–22:00",
+    "url": "https://www.vietnamdeluxe.de/"
+  },
+  {
+    "id": "food-atala",
+    "category": "food",
+    "title": "Atala Restaurant",
+    "desc": "Cucina italiana di qualità nel centro: pasta fresca, pizza al forno e atmosfera vivace. Prenotazione consigliata il weekend.",
+    "icon": "🍕",
+    "note": "Italiano",
+    "hours": "Lun-Dom 12:00–23:00",
+    "url": "https://www.atala-restaurant.de/"
+  },
+  {
+    "id": "food-kuffler",
+    "category": "food",
+    "title": "Café Hauptwache (Kuffler)",
+    "desc": "Caffè elegante sopra la piazza Hauptwache: colazioni, torte e vista sulla città. Ideale per pausa studio o incontro di gruppo.",
+    "icon": "☕",
+    "note": "Caffè panoramico",
+    "hours": "Lun-Dom 09:00–22:00",
+    "url": "https://www.kuffler.de/gastronomie/cafe-hauptwache/"
+  },
+  {
+    "id": "food-bestwurst",
+    "category": "food",
+    "title": "Best Worscht in Town",
+    "desc": "Culto per currywurst e frites: scegli livello di piccantezza sulla scala. Fast, economico e tipico dopo le lezioni.",
+    "icon": "🌭",
+    "note": "Street food",
+    "hours": "Lun-Sab ~10:00–20:00 · orari per punto vendita",
+    "url": "https://www.bestwurstintown.com/"
+  },
+  {
+    "id": "food-heimers",
+    "category": "food",
+    "title": "Heimer's Metzgerei",
+    "desc": "Macelleria con banco pranzo: panini con Fleischwurst, Schnitzel e specialità frankfurter da portare via o mangiare al bancone.",
+    "icon": "🥩",
+    "note": "Metzgerei",
+    "hours": "Lun-Sab 07:00–18:00",
+    "url": "https://www.heimers-metzgerei.de/"
+  },
+  {
+    "id": "food-veganhouse",
+    "category": "food",
+    "title": "Vegan House",
+    "desc": "Ristorante vegano asiatico nel Nordend: menu ampio, porzioni generose e opzioni senza glutine. Molto popolare tra studenti.",
+    "icon": "🌱",
+    "note": "Vegano",
+    "hours": "Mar-Dom 12:00–22:00 · Lun chiuso",
+    "url": "https://www.veganhouse-frankfurt.de/"
+  },
+  {
+    "id": "food-kalbach",
+    "category": "food",
+    "title": "Brauerei Kalbach",
+    "desc": "Birrificio con sala e birra artigianale dell'Hinterland: atmosfera autentica fuori dal centro turistico, raggiungibile in S-Bahn.",
+    "icon": "🍻",
+    "note": "Brauerei",
+    "hours": "Mer-Ven 17:00–23:00 · Sab-Dom 12:00–23:00",
+    "url": "https://www.brauerei-kalbach.de/"
+  },
+  {
+    "id": "food-fleischeslust",
+    "category": "food",
+    "title": "Fleischeslust",
+    "desc": "Steakhouse e griglieria moderna in Sachsenhausen: carni regionali, burger e contorni abbondanti. Prenota per venerdì sera.",
+    "icon": "🥩",
+    "note": "Grill",
+    "hours": "Lun-Dom 12:00–24:00",
+    "url": "https://www.fleischeslust-frankfurt.de/"
+  },
+  {
+    "id": "food-sushim",
+    "category": "food",
+    "title": "Sushimama",
+    "desc": "Sushi e bowl giapponesi in centro: comodo per cena veloce, con opzioni vegetariane e menu lunch a prezzo student-friendly.",
+    "icon": "🍣",
+    "note": "Giapponese",
+    "hours": "Lun-Dom 11:30–22:30",
+    "url": "https://www.sushimama.de/"
+  },
+  {
+    "id": "food-hausmarie",
+    "category": "food",
+    "title": "Haus Marie",
+    "desc": "Bistrot contemporaneo con cucina di stagione e vini naturali. Perfetto per una cena un po' più curata senza formalità eccessiva.",
+    "icon": "🍷",
+    "note": "Bistrot",
+    "hours": "Mar-Sab 18:00–23:00",
+    "url": "https://www.hausmarie.de/"
+  }
+]

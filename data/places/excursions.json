@@ -1,0 +1,98 @@
+[
+  {
+    "id": "trip-heidelberg",
+    "category": "excursions",
+    "title": "Heidelberg",
+    "desc": "Città romantica con castello in rovina, Altstadt e Philosophenweg sul Neckar. Una delle gite più amate dagli studenti.",
+    "transport": "RE treno da Hauptbahnhof",
+    "time": "~50 min",
+    "cost": "~15–25€ A/R con Deutschland-Ticket",
+    "hours": "Castello apr–ott 09:00–18:00 · centro tutto il giorno",
+    "icon": "🏰",
+    "url": "https://www.heidelberg-marketing.de/"
+  },
+  {
+    "id": "trip-mainz",
+    "category": "excursions",
+    "title": "Mainz",
+    "desc": "Città del vino e di Gutenberg: cattedrale, museo della stampa e lungofiume con wine bars nel centro storico.",
+    "transport": "RE/S-Bahn da Hauptbahnhof",
+    "time": "~35 min",
+    "cost": "Incluso con Deutschland-Ticket",
+    "hours": "Dom ~09:00–17:00 · centro sempre accessibile",
+    "icon": "🍷",
+    "url": "https://www.mainz-tourismus.com/"
+  },
+  {
+    "id": "trip-rudesheim",
+    "category": "excursions",
+    "title": "Rüdesheim & Valle del Reno",
+    "desc": "Borgo vinicolo UNESCO con Drosselgasse, vigneti e crociera sul Reno. Perfetto in autunno per la Förderung del vino.",
+    "transport": "RE fino a Rüdesheim / traghetti locali",
+    "time": "~1h15",
+    "cost": "Treno + eventuale battello",
+    "hours": "Centro tutto il giorno · cantine su prenotazione",
+    "icon": "🚢",
+    "url": "https://www.ruedesheim.de/"
+  },
+  {
+    "id": "trip-wurzburg",
+    "category": "excursions",
+    "title": "Würzburg",
+    "desc": "Residenza Würzburg (UNESCO), fortezza Marienberg e vino Franconia. Città barocca elegante e compatta.",
+    "transport": "ICE/RE da Hauptbahnhof",
+    "time": "~1h",
+    "cost": "~20–40€ A/R",
+    "hours": "Residenza apr–ott 09:00–18:00",
+    "icon": "🏛️",
+    "url": "https://www.wuerzburg.de/"
+  },
+  {
+    "id": "trip-cologne",
+    "category": "excursions",
+    "title": "Colonia (Köln)",
+    "desc": "Duomo gotico, musei, Kölsch e quartiere alla moda. Giornata intensa: parte presto per avere tempo in centro.",
+    "transport": "ICE da Hauptbahnhof",
+    "time": "~1h",
+    "cost": "~30–50€ A/R (prenota in anticipo)",
+    "hours": "Duomo 06:00–21:00 · musei variabili",
+    "icon": "⛪",
+    "url": "https://www.koeln.de/"
+  },
+  {
+    "id": "trip-marburg",
+    "category": "excursions",
+    "title": "Marburg",
+    "desc": "Città universitaria medievale con castello, vicoli in salita e atmosfera da favola. Ottima per una domenica fuori porta.",
+    "transport": "RE da Hauptbahnhof",
+    "time": "~1h30",
+    "cost": "Con Deutschland-Ticket",
+    "hours": "Castello 10:00–18:00 · centro pedonale",
+    "icon": "📖",
+    "url": "https://www.marburg-tourismus.de/"
+  },
+  {
+    "id": "trip-bad-homburg",
+    "category": "excursions",
+    "title": "Bad Homburg",
+    "desc": "Città termale e residenza reale con parco Kur e castello. Relax a mezz'ora da Francoforte.",
+    "transport": "S-Bahn S5",
+    "time": "~25 min",
+    "cost": "Incluso con Deutschland-Ticket",
+    "hours": "Parco e castello orari stagionali",
+    "icon": "♨️",
+    "url": "https://www.bad-homburg.de/"
+  },
+  {
+    "id": "trip-darmstadt",
+    "category": "excursions",
+    "title": "Darmstadt",
+    "desc": "Mathildenhöhe (Art Nouveau UNESCO), Museo Künstlerkolonie e atmosfera da città-università tech.",
+    "transport": "S-Bahn / RE",
+    "time": "~30 min",
+    "cost": "Con Deutschland-Ticket",
+    "hours": "Mathildenhöhe 10:00–17:00",
+    "icon": "🎨",
+    "url": "https://www.darmstadt-tourismus.de/"
+  }
+]

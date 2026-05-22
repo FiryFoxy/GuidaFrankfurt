@@ -1,0 +1,102 @@
+[
+  {
+    "id": "culture-romer",
+    "category": "culture",
+    "title": "Römer & Römerberg",
+    "desc": "Cuore medievale della città: il municipio storico, la piazza Römerberg e le case a graticcio ricostruite dopo la guerra. Punto di partenza perfetto per orientarsi nel centro.",
+    "icon": "🏛️",
+    "location": "Altstadt",
+    "hours": "Piazza sempre accessibile · Römer su prenotazione per visite guidate",
+    "url": "https://frankfurt.de/wohin/gehen/roemer"
+  },
+  {
+    "id": "culture-staedel",
+    "category": "culture",
+    "title": "Städel Museum",
+    "desc": "Uno dei musei d'arte più importanti d'Europa: dal Medioevo al contemporaneo, con capolavori di Rembrandt, Vermeer, Monet e Beckmann in una sede elegante sul Meno.",
+    "icon": "🎨",
+    "location": "Schaumainkai",
+    "hours": "Mar-Dom 10:00–18:00 · Mer fino 21:00 · Lun chiuso",
+    "url": "https://www.staedelmuseum.de/"
+  },
+  {
+    "id": "culture-senckenberg",
+    "category": "culture",
+    "title": "Senckenberg Naturmuseum",
+    "desc": "Museo di storia naturale con dinosauri, fossili e collezioni zoologiche: ideale per una giornata al coperto quando piove.",
+    "icon": "🦕",
+    "location": "Senckenberganlage",
+    "hours": "Lun-Sab 09:00–17:00 · Dom 09:00–18:00",
+    "url": "https://museumfrankfurt.senckenberg.de/"
+  },
+  {
+    "id": "culture-goethe",
+    "category": "culture",
+    "title": "Goethe-Haus",
+    "desc": "Casa natale di Johann Wolfgang von Goethe, restaurata con arredi d'epoca e mostre sulla famiglia e sulla cultura del Settecento frankfurter.",
+    "icon": "📚",
+    "location": "Großer Hirschgraben",
+    "hours": "Lun-Sab 10:00–18:00 · Dom 10:00–17:30",
+    "url": "https://www.goethehaus-frankfurt.de/"
+  },
+  {
+    "id": "culture-dom",
+    "category": "culture",
+    "title": "Frankfurter Dom (Kaiserdom)",
+    "desc": "Cattedrale gotica dove furono incoronati gli imperatori del Sacro Romano Impero. Salita alla torre per una vista spettacolare sul centro e sullo skyline.",
+    "icon": "⛪",
+    "location": "Domplatz",
+    "hours": "Chiesa: orari variabili · Torre apr–ott, biglietto in loco",
+    "url": "https://www.dom-frankfurt.de/"
+  },
+  {
+    "id": "culture-juedisches",
+    "category": "culture",
+    "title": "Jüdisches Museum Frankfurt",
+    "desc": "Percorso sulla storia ebraica di Francoforte, dal ghetto medievale alla comunità moderna. Architettura contemporanea e collezione molto ricca.",
+    "icon": "✡️",
+    "location": "Bertha-Pappenheim-Platz",
+    "hours": "Mar-Dom 10:00–17:00 · Mer fino 21:00 · Lun chiuso",
+    "url": "https://www.juedischesmuseum.de/"
+  },
+  {
+    "id": "culture-alteoper",
+    "category": "culture",
+    "title": "Alte Oper",
+    "desc": "Teatro neoclassico ricostruito, oggi sede di concerti, opera e gala. Anche solo per ammirare la facciata illuminata sulla Opernplatz.",
+    "icon": "🎭",
+    "location": "Opernplatz",
+    "hours": "Biglietteria e spettacoli: calendario online",
+    "url": "https://www.alteoper.de/"
+  },
+  {
+    "id": "culture-schaumainkai",
+    "category": "culture",
+    "title": "Museumsufer (Schaumainkai)",
+    "desc": "Lungofiume con musei affiancati: Städel, Liebieghaus (scultura), Museum für Kommunikation. Il sabato spesso mercatino antiquariato lungo il Meno.",
+    "icon": "🖼️",
+    "location": "Schaumainkai",
+    "hours": "Orari per singolo museo · mercato sabato ~08:00–14:00",
+    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/art-culture/museums/museumsufer"
+  },
+  {
+    "id": "culture-hauptwache",
+    "category": "culture",
+    "title": "Hauptwache & Zeil",
+    "desc": "Piazza centrale tra shopping e trasporti: ex caserma, oggi snodo di metro e S-Bahn. Da qui raggiungi Zeil, Römer e le vie del centro in pochi minuti.",
+    "icon": "📍",
+    "location": "Innenstadt",
+    "hours": "Piazza sempre accessibile",
+    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/sights/hauptwache"
+  },
+  {
+    "id": "culture-mainhattan",
+    "category": "culture",
+    "title": "Mainhattan Skyline",
+    "desc": "Passeggiata tra Eiserner Steg, lungomare e grattacieli della Bankenviertel. Di sera il contrasto tra skyline moderno e Römer è il classico selfie frankfurter.",
+    "icon": "🏙️",
+    "location": "Innenstadt / Main",
+    "hours": "Eiserner Steg: sempre aperto (pedonale)",
+    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/sights/eiserner-steg"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "season": {
+    "title": "Inverno a Francoforte (settembre – gennaio)",
+    "tempRange": "-2°C – 10°C",
+    "highlights": [
+      "Giornate corte: tramonto verso le 16:00–17:00 a dicembre",
+      "Pioggia e nebbia frequenti sul Meno",
+      "Mercatini di Natale (Weihnachtsmarkt) da fine novembre"
+    ]
+  },
+  "packing": [
+    "Giacca impermeabile e ombrello robusto",
+    "Cappello, guanti e sciarpa (gennaio può scendere sotto zero)",
+    "Strati termici sotto il maglione",
+    "Scarpe antiscivolo e impermeabili"
+  ],
+  "planning": [
+    { "condition": "Pioggia probabile (>60%)", "tip": "Städel, Senckenberg, Kleinmarkthalle o shopping alla MyZeil — perfetti al coperto." },
+    { "condition": "Giornata asciutta", "tip": "Römerberg, Palmengarten, gita a Heidelberg o Mainz." },
+    { "condition": "Freddo intenso (<0°C)", "tip": "Preferisci musei e mercatini; copriti bene per la sera in Sachsenhausen." },
+    { "condition": "Nebbia sul Main", "tip": "Skyline suggestiva per foto; rimanda Eiserner Steg se visibilità scarsa." }
+  ],
+  "links": [
+    { "label": "DWD (servizio meteo tedesco)", "url": "https://www.dwd.de/EN/weather/weather_node.html" },
+    { "label": "Open-Meteo", "url": "https://open-meteo.com/" }
+  ]
+}

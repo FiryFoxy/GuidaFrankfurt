@@ -1,0 +1,172 @@
+[
+  {
+    "id": "night-kingkamehameha",
+    "category": "nightlife",
+    "title": "King Kamehameha Club",
+    "desc": "Club nel quartiere finanziario con DJ set, eventi e serate a tema. Dress code smart casual — controlla la lista eventi online.",
+    "icon": "🪩",
+    "highlight": "Club & DJ",
+    "hours": "Ven-Sab ~23:00–05:00 · eventi variabili",
+    "url": "https://www.kingkamehameha.de/"
+  },
+  {
+    "id": "night-gibson",
+    "category": "nightlife",
+    "title": "Gibson Club",
+    "desc": "Club storico con concerti live, indie e serate elettroniche. Una delle venue più note per chi cerca musica dal vivo.",
+    "icon": "🎸",
+    "highlight": "Live & Club",
+    "hours": "Eventi serali · calendario online",
+    "url": "https://www.gibson-club.de/"
+  },
+  {
+    "id": "night-tanzhaus",
+    "category": "nightlife",
+    "title": "Tanzhaus West",
+    "desc": "Spazio culturale con concerti, jam session e serate eclettiche in zona industriale. Atmosfera alternativa e pubblico internazionale.",
+    "icon": "🎵",
+    "highlight": "Indie & Alternativo",
+    "hours": "Ven-Sab eventi ~20:00–02:00",
+    "url": "https://www.tanzhaus-west.com/"
+  },
+  {
+    "id": "night-d8",
+    "category": "nightlife",
+    "title": "D8 (Apfelwein & Bar)",
+    "desc": "Bar di Sachsenhausen con Ebbelwoi, birre tedesche e cocktail. Zona Dörpfest perfetta per pub crawl tra locali tradizionali.",
+    "icon": "🍎",
+    "highlight": "Apfelwein",
+    "hours": "Lun-Dom 18:00–01:00",
+    "url": "https://www.d-8.de/"
+  },
+  {
+    "id": "night-zum-schweizer",
+    "category": "nightlife",
+    "title": "Zum Schweizer",
+    "desc": "Storico locale a Sachsenhausen: birra, cider e atmosfera da Kneipe classica. Punto fermo del «Dorf» notturno.",
+    "icon": "🍺",
+    "highlight": "Kneipe",
+    "hours": "Lun-Dom 17:00–01:00",
+    "url": "https://www.zumschweizer.de/"
+  },
+  {
+    "id": "night-batschkapp",
+    "category": "nightlife",
+    "title": "Batschkapp",
+    "desc": "Sala concerti leggendaria in Sachsenhausen: rock, pop, hip-hop e serate universitarie. Biglietti spesso in prevendita.",
+    "icon": "🎤",
+    "highlight": "Concerti",
+    "hours": "Eventi serali · porte ~19:00",
+    "url": "https://www.batschkapp.de/"
+  },
+  {
+    "id": "night-roomers",
+    "category": "nightlife",
+    "title": "Roomers Bar",
+    "desc": "Rooftop bar con vista skyline: cocktail di qualità, ambiente elegante. Perfetto per un aperitivo speciale.",
+    "icon": "🌃",
+    "highlight": "Rooftop",
+    "hours": "Lun-Dom 18:00–02:00",
+    "url": "https://www.roomers-bar.com/"
+  },
+  {
+    "id": "night-oclo",
+    "category": "nightlife",
+    "title": "O'Cloclo Irish Pub",
+    "desc": "Pub irlandese nel centro con birra alla spina, sport in TV e musica dal vivo nel weekend. Familiare per chi viene da Cork.",
+    "icon": "☘️",
+    "highlight": "Pub internazionale",
+    "hours": "Lun-Dom 17:00–01:00",
+    "url": "https://www.ocloclo.de/"
+  },
+  {
+    "id": "night-jimmy",
+    "category": "nightlife",
+    "title": "Jimmy's Bar",
+    "desc": "Bar informale in Sachsenhausen con birre artigianali e snack. Buon punto di partenza prima di esplorare la zona.",
+    "icon": "🍻",
+    "highlight": "Craft Beer",
+    "hours": "Lun-Sab 18:00–02:00 · Dom 18:00–24:00",
+    "url": "https://www.jimmysbar.de/"
+  },
+  {
+    "id": "night-pulse",
+    "category": "nightlife",
+    "title": "Pulse Club",
+    "desc": "Club nel centro con serate commerciali, house e hip-hop. Spesso eventi per studenti e Erasmus.",
+    "icon": "💃",
+    "highlight": "Dance",
+    "hours": "Ven-Sab ~23:00–05:00",
+    "url": "https://www.pulse-club.de/"
+  },
+  {
+    "id": "night-alteoperbar",
+    "category": "nightlife",
+    "title": "Opernbar (Alte Oper)",
+    "desc": "Bar elegante sotto l'Alte Oper: champagne, cocktail classici e atmosfera raffinata prima o dopo uno spettacolo.",
+    "icon": "🥂",
+    "highlight": "Cocktail",
+    "hours": "Mar-Sab 18:00–01:00",
+    "url": "https://www.opernbar.de/"
+  },
+  {
+    "id": "night-batschkappbar",
+    "category": "nightlife",
+    "title": "Nachtleben (Nordend)",
+    "desc": "Zona Nordend/Bornheim con bar indipendenti, birrerie e locali LGBTQ+-friendly. Passeggiata serale molto vivace.",
+    "icon": "🌈",
+    "highlight": "Quartiere",
+    "hours": "Bar tipicamente 19:00–02:00",
+    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/eating-drinking/nightlife"
+  },
+  {
+    "id": "night-hafen2",
+    "category": "nightlife",
+    "title": "Hafen 2 (Offenbach)",
+    "desc": "Spazio culturale sul Meno a Offenbach: concerti, cinema all'aperto e festival. Raggiungibile in S-Bahn in pochi minuti.",
+    "icon": "🎬",
+    "highlight": "Eventi culturali",
+    "hours": "Eventi variabili · calendario online",
+    "url": "https://www.hafen2.de/"
+  },
+  {
+    "id": "night-casino",
+    "category": "nightlife",
+    "title": "Spielbank Frankfurt",
+    "desc": "Casinò nel Westend: giochi da tavolo, slot e ristorante. Documento d'identità obbligatorio, età minima 18/21 a seconda dell'area.",
+    "icon": "🎰",
+    "highlight": "Casinò",
+    "hours": "Tutti i giorni ~11:00–03:00",
+    "url": "https://www.spielbank-frankfurt.de/"
+  },
+  {
+    "id": "night-bockenheim",
+    "category": "nightlife",
+    "title": "Leipziger Straße (Bockenheim)",
+    "desc": "Strada studentesca vicino al campus: bar economici, kebab e locali fino a tardi. Cuore della movida universitaria.",
+    "icon": "🎓",
+    "highlight": "Zona studenti",
+    "hours": "Bar ~18:00–02:00",
+    "url": "https://www.frankfurt-tourismus.de/"
+  },
+  {
+    "id": "night-molly",
+    "category": "nightlife",
+    "title": "Molly Malone's",
+    "desc": "Pub irlandese con musica live e quiz night. Atmosfera internazionale, spesso pieno di expat e studenti Erasmus.",
+    "icon": "🍀",
+    "highlight": "Pub & Live",
+    "hours": "Lun-Dom 17:00–01:00",
+    "url": "https://www.mollymalones.de/"
+  },
+  {
+    "id": "night-silo",
+    "category": "nightlife",
+    "title": "Silo Club",
+    "desc": "Techno e house in location industriale: sound system potente e serate fino all'alba per chi ama la club culture.",
+    "icon": "🔊",
+    "highlight": "Techno",
+    "hours": "Ven-Sab ~23:00–08:00",
+    "url": "https://www.silo-club.de/"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "voices": {
+    "de": "de-DE-KatjaNeural"
+  },
+  "phrases": [
+    { "lang": "de", "text": "Hallo" },
+    { "lang": "de", "text": "Guten Morgen" },
+    { "lang": "de", "text": "Guten Abend" },
+    { "lang": "de", "text": "Danke" },
+    { "lang": "de", "text": "Bitte" },
+    { "lang": "de", "text": "Wie geht es Ihnen?" },
+    { "lang": "de", "text": "Auf Wiedersehen" },
+    { "lang": "de", "text": "Wo ist" },
+    { "lang": "de", "text": "Wie viel kostet das?" },
+    { "lang": "de", "text": "Eine Fahrkarte, bitte" },
+    { "lang": "de", "text": "Bushaltestelle" },
+    { "lang": "de", "text": "Bahnhof" },
+    { "lang": "de", "text": "Stadtzentrum" },
+    { "lang": "de", "text": "Nach rechts" },
+    { "lang": "de", "text": "Ausgang" },
+    { "lang": "de", "text": "Toilette" },
+    { "lang": "de", "text": "Die Rechnung, bitte" },
+    { "lang": "de", "text": "Einen Tisch für zwei" },
+    { "lang": "de", "text": "Leitungswasser" },
+    { "lang": "de", "text": "Zum Mitnehmen" },
+    { "lang": "de", "text": "Ein Bier, bitte" },
+    { "lang": "de", "text": "Prost" },
+    { "lang": "de", "text": "Supermarkt" },
+    { "lang": "de", "text": "Apotheke" },
+    { "lang": "de", "text": "Tüte" },
+    { "lang": "de", "text": "Karte" },
+    { "lang": "de", "text": "Studentenrabatt" },
+    { "lang": "de", "text": "Eingang" },
+    { "lang": "de", "text": "Hilfe" },
+    { "lang": "de", "text": "Ich brauche einen Arzt" },
+    { "lang": "de", "text": "Krankenhaus" },
+    { "lang": "de", "text": "Mir ist schlecht" },
+    { "lang": "de", "text": "Ich bin allergisch gegen" },
+    { "lang": "de", "text": "Alles klar" },
+    { "lang": "de", "text": "Kein Problem" }
+  ]
+}
