@@ -8,8 +8,8 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "any",
-  "background_color": "#344E41",
-  "theme_color": "#344E41",
+  "background_color": "#1E4A7A",
+  "theme_color": "#1E4A7A",
   "lang": "it",
   "categories": ["travel", "education"],
   "icons": [

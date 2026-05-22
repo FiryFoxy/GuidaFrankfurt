@@ -252,7 +252,7 @@ const ProgramUI = (() => {
       <article class="proposal-card proposal-card--approved program-detail-card">
         <div class="flex flex-wrap justify-between gap-2">
           <div>
-            <h4 class="font-bold text-[#344E41] text-lg">${place?.icon ? esc(place.icon) + ' ' : ''}${esc(item.title)}</h4>
+            <h4 class="font-bold text-[#1E4A7A] text-lg">${place?.icon ? esc(place.icon) + ' ' : ''}${esc(item.title)}</h4>
             <div class="proposal-meta">
               <span>📅 ${ctx.formatDate(item.day_date)}</span>
               ${loc ? `<span>📍 ${esc(loc)}</span>` : ''}
@@ -270,7 +270,7 @@ const ProgramUI = (() => {
         ${place ? `
           <div class="program-detail-block mt-3">
             <h5 class="program-detail-label">Luogo dalla guida</h5>
-            <p class="text-sm font-semibold text-[#344E41]">${esc(place.title)}</p>
+            <p class="text-sm font-semibold text-[#1E4A7A]">${esc(place.title)}</p>
             ${place.desc ? `<p class="text-sm text-gray-600 mt-1 leading-relaxed">${esc(place.desc)}</p>` : ''}
             <div class="proposal-meta mt-2">
               ${place.hours ? `<span>🕐 ${esc(place.hours)}</span>` : ''}
@@ -293,7 +293,7 @@ const ProgramUI = (() => {
       <article class="proposal-card ${item.status === 'approved' ? 'proposal-card--approved' : ''}">
         <div class="flex flex-wrap justify-between gap-2">
           <div>
-            <h4 class="font-bold text-[#344E41] text-lg">${place?.icon ? esc(place.icon) + ' ' : ''}${esc(item.title)}</h4>
+            <h4 class="font-bold text-[#1E4A7A] text-lg">${place?.icon ? esc(place.icon) + ' ' : ''}${esc(item.title)}</h4>
             <div class="proposal-meta">
               <span>${ctx.formatDate(item.day_date)}</span>
               ${loc ? `<span>${esc(loc)}</span>` : ''}
@@ -584,7 +584,7 @@ const ProgramUI = (() => {
         </div>
         <div class="program-admin-field">
           <label class="field-label" for="program-location">Luogo / ritrovo</label>
-          <input type="text" id="program-location" class="field-input" value="${esc(edit?.location || '')}" placeholder="Es. Kent Station, ore 9:00">
+          <input type="text" id="program-location" class="field-input" value="${esc(edit?.location || '')}" placeholder="Es. Hauptbahnhof, ore 9:00">
         </div>
         <div class="program-admin-field">
           <label class="field-label" for="program-description">Descrizione</label>

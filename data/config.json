@@ -1,9 +1,9 @@
 {
   "title": "Erasmus a Francoforte",
-  "subtitle": "1 settembre 2026 – 31 gennaio 2027 · semestre invernale a Francoforte",
+  "subtitle": "11 luglio – 12 agosto 2026 · 5 settimane a Francoforte",
   "erasmus": {
-    "start": "2026-09-01",
-    "end": "2027-01-31"
+    "start": "2026-07-11",
+    "end": "2026-08-12"
   },
   "tabs": [
     { "id": "intro", "label": "Home", "shortLabel": "Home", "icon": "🏠" },

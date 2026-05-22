@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Erasmus a Francoforte — Guida interattiva</title>
-    <meta name="description" content="Guida Erasmus a Francoforte: musei, ristoranti, bar, gite, meteo, mappa e planner uscite. Settembre 2026 – gennaio 2027." />
-    <meta name="theme-color" content="#344E41" />
+    <meta name="description" content="Guida Erasmus a Francoforte: musei, ristoranti, bar, gite, meteo, mappa e planner uscite. Luglio–agosto 2026." />
+    <meta name="theme-color" content="#1E4A7A" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Francoforte Erasmus" />
@@ -44,7 +44,7 @@
 </head>
 <body class="antialiased flex flex-col min-h-screen">
 
-    <!-- Chosen Palette: Warm Neutrals & Irish Greens (Background: #FAF8F5, Accents: #A3B18A, #588157, #344E41, Text: #333333) -->
+    <!-- Chosen Palette: Warm Neutrals & blues (Background: #FAF8F5, Accents: #60A5FA, #2563B8, #1E4A7A, Text: #333333) -->
     <!-- Application Structure Plan: La SPA utilizza un'interfaccia a schede stile dashboard. Questa struttura permette all'utente di navigare rapidamente tra le diverse categorie di attività (Logistica, Cultura, Locali, Chicche, Gite) senza perdersi in una pagina eccessivamente lunga, favorendo l'usabilità immediata da mobile e desktop durante il soggiorno Erasmus. Ogni elemento contiene ora un link interattivo per approfondire direttamente sul sito ufficiale. -->
     <!-- Visualization & Content Choices: Spese Erasmus -> Grafico a ciambella con Chart.js per mostrare in modo pulito le proporzioni del budget mensile. Per i luoghi e le gite si usano delle griglie di card interattive e dinamiche con indicatori visivi di cliccabilità (link esterni) per massimizzare l'esplorazione autonoma del territorio. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
@@ -69,8 +69,8 @@
 
     <div id="toast" role="status" aria-live="polite"></div>
 
-    <footer class="bg-[#344E41] text-[#FAF8F5] py-6 text-center mt-auto">
-        <p class="opacity-80 text-sm">Pronto per il tuo Erasmus a Francoforte? Esplora le sezioni e organizza il semestre! 🇩🇪</p>
+    <footer class="bg-[#1E4A7A] text-[#FAF8F5] py-6 text-center mt-auto">
+        <p class="opacity-80 text-sm">Pronto per il tuo Erasmus estivo a Francoforte? Esplora le sezioni e organizza le tue settimane! 🇩🇪</p>
     </footer>
 
     <script>
@@ -303,7 +303,7 @@
             if (favBtn) {
                 favBtn.onclick = () => {
                     filterState.favOnly[tabId] = !filterState.favOnly[tabId];
-                    favBtn.classList.toggle('bg-[#344E41]', filterState.favOnly[tabId]);
+                    favBtn.classList.toggle('bg-[#1E4A7A]', filterState.favOnly[tabId]);
                     favBtn.classList.toggle('text-white', filterState.favOnly[tabId]);
                     renderContent(tabId);
                 };
@@ -326,16 +326,16 @@
             const places = filteredPlaces(tabId);
             if (tabId === 'culture') {
                 const grid = document.getElementById('culture-grid');
-                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.location, 'text-[#588157] bg-green-50')).join('') || emptyMsg();
+                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.location, 'text-[#2563B8] bg-green-50')).join('') || emptyMsg();
             } else if (tabId === 'food') {
                 const grid = document.getElementById('food-grid');
                 if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.note, 'text-[#D97757] bg-orange-50')).join('') || emptyMsg();
             } else if (tabId === 'nightlife') {
                 const grid = document.getElementById('nightlife-grid');
-                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-[#2C3E50] text-white', p.highlight, 'text-[#E9EDC9] bg-white bg-opacity-10')).join('') || emptyMsg();
+                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-[#163A5F] text-white', p.highlight, 'text-[#DBEAFE] bg-[#2563B8]')).join('') || emptyMsg();
             } else if (tabId === 'shopping') {
                 const grid = document.getElementById('shopping-grid');
-                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.note, 'text-[#344E41] bg-yellow-50')).join('') || emptyMsg();
+                if (grid) grid.innerHTML = places.map(p => createCard(p, 'bg-white text-gray-800', p.note, 'text-[#1E4A7A] bg-yellow-50')).join('') || emptyMsg();
             } else if (tabId === 'excursions') {
                 const list = document.getElementById('excursions-list');
                 if (list) list.innerHTML = places.map(p => createExcursionRow(p)).join('') || emptyMsg();
@@ -414,8 +414,8 @@
                     <p class="text-sm opacity-90 flex-grow leading-relaxed">${place.desc}</p>
                     <div class="place-card-actions mt-4 pt-3 border-t border-current border-opacity-10 flex flex-wrap gap-2">
                         ${hasUrl ? `<a href="${place.url}" target="_blank" rel="noopener noreferrer" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-black bg-opacity-5 hover:bg-opacity-10">Sito ↗</a>` : ''}
-                        ${place.lat != null ? `<button type="button" data-show-map="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#E9EDC9] text-[#344E41] hover:bg-[#A3B18A]">Mappa</button>` : ''}
-                        <button type="button" data-add-plan="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#588157] text-white hover:bg-[#344E41]">+ Planner</button>
+                        ${place.lat != null ? `<button type="button" data-show-map="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#DBEAFE] text-[#1E4A7A] hover:bg-[#60A5FA]">Mappa</button>` : ''}
+                        <button type="button" data-add-plan="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#2563B8] text-white hover:bg-[#1E4A7A]">+ Planner</button>
                     </div>
                 </article>
             `;
@@ -425,23 +425,23 @@
             const fav = window.planner.isFavorite(place.id);
             return `
                 <article class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-center">
-                    <div class="text-5xl shrink-0 bg-[#E9EDC9] w-20 h-20 flex items-center justify-center rounded-full">${place.icon}</div>
+                    <div class="text-5xl shrink-0 bg-[#DBEAFE] w-20 h-20 flex items-center justify-center rounded-full">${place.icon}</div>
                     <div class="flex-grow text-center md:text-left w-full">
                         <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
-                            <h3 class="text-2xl font-bold text-[#344E41]">${place.title}</h3>
+                            <h3 class="text-2xl font-bold text-[#1E4A7A]">${place.title}</h3>
                             <button type="button" data-fav="${place.id}" class="text-xl" title="Preferito">${fav ? '★' : '☆'}</button>
                         </div>
                         <p class="text-gray-700 mb-2 leading-relaxed">${place.desc}</p>
-                        ${place.hours ? `<p class="text-xs text-[#588157] font-semibold mb-3">🕐 ${place.hours}</p>` : ''}
+                        ${place.hours ? `<p class="text-xs text-[#2563B8] font-semibold mb-3">🕐 ${place.hours}</p>` : ''}
                         <div class="flex flex-wrap gap-3 justify-center md:justify-start text-xs font-semibold mb-3">
                             <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">🚌/🚆 ${place.transport}</span>
                             <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full">⏱️ ${place.time}</span>
                             <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">💶 ${place.cost}</span>
                         </div>
                         <div class="place-card-actions flex flex-wrap gap-2 justify-center md:justify-start">
-                            <a href="${place.url}" target="_blank" rel="noopener noreferrer" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#E9EDC9] text-[#344E41] hover:bg-[#A3B18A]">Info & biglietti ↗</a>
-                            ${place.lat != null ? `<button type="button" data-show-map="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#E9EDC9] text-[#344E41]">Mappa</button>` : ''}
-                            <button type="button" data-add-plan="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#588157] text-white hover:bg-[#344E41]">+ Planner</button>
+                            <a href="${place.url}" target="_blank" rel="noopener noreferrer" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#DBEAFE] text-[#1E4A7A] hover:bg-[#60A5FA]">Info & biglietti ↗</a>
+                            ${place.lat != null ? `<button type="button" data-show-map="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#DBEAFE] text-[#1E4A7A]">Mappa</button>` : ''}
+                            <button type="button" data-add-plan="${place.id}" class="place-card-btn text-xs font-semibold px-3 py-1.5 rounded-full bg-[#2563B8] text-white hover:bg-[#1E4A7A]">+ Planner</button>
                         </div>
                     </div>
                 </article>
@@ -462,10 +462,10 @@
                 datasets: [{
                     data: [300, 49, 200, 120],
                     backgroundColor: [
-                        '#588157',
-                        '#A3B18A',
+                        '#2563B8',
+                        '#60A5FA',
                         '#D97757',
-                        '#E9EDC9'
+                        '#DBEAFE'
                     ],
                     borderWidth: 0,
                     hoverOffset: 4

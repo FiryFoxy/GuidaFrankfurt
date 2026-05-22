@@ -93,7 +93,7 @@ const PlannerUI = (() => {
         <div class="plan-card-time">${p.time || '—'}</div>
         <div class="plan-card-body">
           <div class="flex flex-wrap items-center gap-2 mb-1">
-            <span class="font-bold text-[#344E41]">${icon} ${p.title}</span>
+            <span class="font-bold text-[#1E4A7A]">${icon} ${p.title}</span>
             ${cat ? categoryChip(cat) : ''}
           </div>
           ${p.note ? `<p class="text-sm text-gray-600">${p.note}</p>` : ''}

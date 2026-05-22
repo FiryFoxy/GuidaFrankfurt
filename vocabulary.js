@@ -154,7 +154,7 @@
         const btn = createSpeakButton(
             raw,
             lang,
-            lang === 'ga' ? `Ascolta in irlandese: ${phrase}` : `Ascolta in inglese: ${phrase}`,
+            lang === 'de' ? `Ascolta in tedesco: ${phrase}` : `Ascolta: ${phrase}`,
             speakOverrideText || phrase,
             raw
         );
@@ -166,9 +166,9 @@
     function injectTableSpeakButtons(root) {
         root.querySelectorAll('.vocab-table tbody tr').forEach(row => {
             const cells = row.querySelectorAll('td');
-            if (cells.length < 3) return;
-            wrapCellWithSpeak(cells[1], 'en');
-            wrapCellWithSpeak(cells[2], 'ga');
+            if (cells.length < 2) return;
+            const lang = (row.dataset.lang || 'de').split(/\s+/)[0] || 'de';
+            wrapCellWithSpeak(cells[1], lang);
         });
     }
 
@@ -176,8 +176,7 @@
         root.querySelectorAll('.vocab-card').forEach(card => {
             const termEl = card.querySelector('.vocab-card-term');
             if (!termEl || card.querySelector('.vocab-card-head')) return;
-            const langs = (card.dataset.lang || 'en').split(/\s+/);
-            const lang = langs.includes('ga') && !langs.includes('en') ? 'ga' : 'en';
+            const lang = (card.dataset.lang || 'de').split(/\s+/)[0] || 'de';
             const text = termEl.textContent.trim();
             const speakOverrideText = speakOverride(card);
             const head = document.createElement('div');
@@ -235,7 +234,7 @@
         const badge = sectionEl.querySelector('[data-vocab-audio-badge]');
         if (badge) {
             badge.textContent = audioManifest
-                ? 'Audio registrato con accento irlandese (inglese e Gaeilge)'
+                ? 'Audio registrato in tedesco standard (de-DE)'
                 : 'Manifest audio non caricato';
         }
     }

@@ -1,6 +1,6 @@
 # 🏙️ Guida Francoforte — Erasmus 2026
 
-Guida interattiva per il soggiorno Erasmus a Francoforte (**11 luglio – 12 agosto 2026**): musei, pub, mercati, gite e planner uscite.
+Guida interattiva per il soggiorno Erasmus a Francoforte (**11 luglio – 12 agosto 2026**): musei, bar, mercati, gite e planner uscite.
 
 ## Funzionalità
 
@@ -10,7 +10,7 @@ Guida interattiva per il soggiorno Erasmus a Francoforte (**11 luglio – 12 ago
 - **Planner uscite** personale, salvato solo sul dispositivo, con export/import JSON
 - Accesso admin riservato alla gestione del programma ufficiale
 - Grafico budget mensile (Chart.js)
-- Link verificati ai siti ufficiali (Francoforte City Council, Discover Ireland, ecc.)
+- Link verificati ai siti ufficiali (Frankfurt Tourismus, RMV, DB, ecc.)
 - **Installabile come app** su iPhone, iPad e Android (schermo intero, icona sulla Home)
 
 ## Installare come app (PWA)
@@ -29,7 +29,7 @@ La guida si apre a schermo intero e resta disponibile offline per contenuti già
 Il sito carica le sezioni via `fetch`. Apri sempre con un server locale:
 
 ```bash
-cd GuidaFrancoforte
+cd GuidaFrankfurt
 npx serve .
 ```
 
@@ -37,13 +37,13 @@ Poi apri `http://localhost:3000` (o la porta indicata).
 
 ## Pubblicare su GitHub Pages (gratuito)
 
-1. Crea un repository su GitHub (es. `GuidaFrancoforte`) e carica tutti i file.
+1. Crea un repository su GitHub (es. `GuidaFrankfurt`) e carica tutti i file.
 2. Vai su **Settings → Pages**.
 3. **Source**: *Deploy from a branch*.
 4. **Branch**: `main` (o `master`) · cartella **`/ (root)`**.
 5. Salva. Il sito sarà disponibile su:
 
-   `https://<tuo-username>.github.io/GuidaFrancoforte/`
+   `https://<tuo-username>.github.io/GuidaFrankfurt/`
 
 > Il file `.nojekyll` evita che Jekyll ignori cartelle o file.
 
@@ -67,7 +67,7 @@ group-planning-ui.js    # UI planning di gruppo
 map.js                  # Mappa Leaflet + filtri categoria
 weather.js              # Previsioni Open-Meteo + consigli stagione
 vocabulary.js           # Vocabolario: filtri + riproduzione audio
-scripts/generate-vocab-audio.py  # Rigenera MP3 pronuncia (edge-tts, voci en-IE / ga-IE)
+scripts/generate-vocab-audio.py  # Rigenera MP3 pronuncia (edge-tts, voce de-DE)
 assets/audio/vocab/     # File audio pronuncia (generati dallo script)
 data/
   config.json           # Schede navigazione, date Erasmus, elenco file luoghi
@@ -78,7 +78,7 @@ data/
   places/
     culture.json        # Musei, teatri…
     food.json           # Ristoranti e cafè
-    nightlife.json      # Pub
+    nightlife.json      # Bar e club
     shopping.json       # Mercati e shopping
     excursions.json     # Gite fuori porta
 sections/*.html         # Layout HTML di ogni scheda
@@ -100,7 +100,7 @@ Apri il file JSON della categoria che ti interessa (es. `data/places/food.json`)
   "icon": "🍽️",
   "note": "Etichetta breve",
   "hours": "Mar-Sab 12:00–22:00",
-  "url": "https://esempio.ie"
+  "url": "https://esempio.de"
 }
 ```
 
@@ -109,6 +109,13 @@ Campi utili per le gite: `transport`, `time`, `cost`. Salva e ricarica la pagina
 Per cambiare le date del planner, modifica `erasmus` in `data/config.json`.
 
 Per modificare colori, header, card e componenti custom, edita `assets/main.css`. Layout e spaziature usano classi [Tailwind](https://tailwindcss.com) nel markup (`sections/*.html` e template JS).
+
+## Rigenerare l'audio del vocabolario
+
+```bash
+pip install edge-tts
+python3 scripts/generate-vocab-audio.py
+```
 
 ## Programma admin con Supabase
 
@@ -128,25 +135,8 @@ Servono solo account `admin` (massimo 3 attivi). Per ciascuno:
 2. Modifica le email in `database/create-admin-users.sql`.
 3. Esegui tutto `database/create-admin-users.sql` nel SQL Editor.
 
-Il file definisce la funzione `ensure_admin_profile(email, nome)` e promuove gli utenti creati in Authentication. Alla fine mostra l'elenco admin attivi.
-
-Per aggiungere un admin in seguito, crea prima l'utente in Authentication poi esegui:
-
-```sql
-select public.ensure_admin_profile('nuovo-admin@email.it', 'Nome visualizzato');
-```
-
-Regole implementate:
-
-- Solo chi ha un profilo `active` puo usare il planning di gruppo.
-- I voti sono visibili nel sito solo come conteggi aggregati.
-- Ogni modifica importante a una proposta crea una nuova versione.
-- Dopo una modifica, i voti precedenti restano nello storico e gli utenti devono votare la versione corrente.
-- Solo gli admin possono approvare il planning finale.
-- Sono consentiti al massimo 3 admin attivi o invitati.
-
 ## Note
 
 - I dati del planner personale restano nel browser (`localStorage`).
 - La password del database non deve essere messa nei file pubblici del sito.
-- Alcuni siti (Facebook, Discover Ireland) possono bloccare richieste automatiche ma funzionano nel browser.
+- Le immagini dei piatti in `sections/dishes.html` usano Wikimedia Commons (richiedono connessione).

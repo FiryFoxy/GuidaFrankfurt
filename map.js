@@ -1,9 +1,9 @@
 // Mappa Leaflet — luoghi guida Francoforte
 const CATEGORY_META = {
-  culture: { label: 'Cultura', color: '#588157', emoji: '🏛️' },
+  culture: { label: 'Cultura', color: '#2563B8', emoji: '🏛️' },
   food: { label: 'Ristoranti', color: '#D97757', emoji: '🍽️' },
-  nightlife: { label: 'Pub', color: '#344E41', emoji: '🍻' },
-  shopping: { label: 'Shopping', color: '#7A8B5E', emoji: '🛍️' },
+  nightlife: { label: 'Bar', color: '#1E4A7A', emoji: '🍻' },
+  shopping: { label: 'Shopping', color: '#0EA5E9', emoji: '🛍️' },
   excursions: { label: 'Gite', color: '#3B6EA8', emoji: '🚂' }
 };
 
@@ -92,7 +92,7 @@ function initFrankfurtMap(places, options = {}) {
   let shown = 0;
 
   places.filter(p => p.lat != null && p.lng != null && mapFilters.has(p.category)).forEach(place => {
-    const meta = CATEGORY_META[place.category] || { color: '#588157', emoji: '📍' };
+    const meta = CATEGORY_META[place.category] || { color: '#2563B8', emoji: '📍' };
     const planned = plannedIds.has(place.id);
     const marker = L.marker([place.lat, place.lng], {
       icon: emojiIcon(place.icon || meta.emoji, meta.color, planned)
@@ -100,12 +100,12 @@ function initFrankfurtMap(places, options = {}) {
 
     const popup = `
       <div class="map-popup" style="min-width:180px;font-family:Nunito,sans-serif">
-        <div style="font-weight:700;color:#344E41;margin-bottom:4px">${place.icon || ''} ${place.title}</div>
-        <div style="font-size:11px;color:#588157;margin-bottom:6px">${meta.label}${planned ? ' · 📌 In planner' : ''}</div>
+        <div style="font-weight:700;color:#1E4A7A;margin-bottom:4px">${place.icon || ''} ${place.title}</div>
+        <div style="font-size:11px;color:#2563B8;margin-bottom:6px">${meta.label}${planned ? ' · 📌 In planner' : ''}</div>
         <p style="font-size:12px;color:#555;margin:0 0 8px;line-height:1.4">${(place.desc || '').slice(0, 120)}${place.desc?.length > 120 ? '…' : ''}</p>
         <div style="display:flex;flex-wrap:wrap;gap:6px">
-          ${place.url ? `<a href="${place.url}" target="_blank" rel="noopener" style="font-size:11px;font-weight:600;color:#588157">Sito ↗</a>` : ''}
-          <button type="button" data-map-plan="${place.id}" style="font-size:11px;font-weight:600;color:#fff;background:#344E41;border:none;padding:4px 10px;border-radius:999px;cursor:pointer">+ Planner</button>
+          ${place.url ? `<a href="${place.url}" target="_blank" rel="noopener" style="font-size:11px;font-weight:600;color:#2563B8">Sito ↗</a>` : ''}
+          <button type="button" data-map-plan="${place.id}" style="font-size:11px;font-weight:600;color:#fff;background:#1E4A7A;border:none;padding:4px 10px;border-radius:999px;cursor:pointer">+ Planner</button>
         </div>
       </div>
     `;

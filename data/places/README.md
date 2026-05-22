@@ -25,7 +25,7 @@ Per una **nuova categoria**, aggiungi il file qui e il nome in `data/config.json
 Aggiungi le coordinate in `data/coordinates.json` (stesso `id` del luogo):
 
 ```json
-"food-nuovo": { "lat": 51.898, "lng": -8.473 }
+"food-nuovo": { "lat": 50.111, "lng": 8.682 }
 ```
 
 Senza coordinate il luogo non compare sulla mappa.

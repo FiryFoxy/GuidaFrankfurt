@@ -1,24 +1,24 @@
 {
   "season": {
-    "title": "Inverno a Francoforte (settembre – gennaio)",
-    "tempRange": "-2°C – 10°C",
+    "title": "Estate a Francoforte (luglio – agosto)",
+    "tempRange": "16°C – 28°C",
     "highlights": [
-      "Giornate corte: tramonto verso le 16:00–17:00 a dicembre",
-      "Pioggia e nebbia frequenti sul Meno",
-      "Mercatini di Natale (Weihnachtsmarkt) da fine novembre"
+      "Giornate lunghe: tramonto verso le 21:00–21:30",
+      "Possibili temporali pomeridiani — ombrello utile",
+      "Apfelwein all'aperto a Sachsenhausen nelle sere miti"
     ]
   },
   "packing": [
-    "Giacca impermeabile e ombrello robusto",
-    "Cappello, guanti e sciarpa (gennaio può scendere sotto zero)",
-    "Strati termici sotto il maglione",
-    "Scarpe antiscivolo e impermeabili"
+    "Giacca leggera per la sera",
+    "Ombrello compatto",
+    "Scarpe comode per camminare in centro",
+    "Crema solare (anche con nuvole)"
   ],
   "planning": [
     { "condition": "Pioggia probabile (>60%)", "tip": "Städel, Senckenberg, Kleinmarkthalle o shopping alla MyZeil — perfetti al coperto." },
-    { "condition": "Giornata asciutta", "tip": "Römerberg, Palmengarten, gita a Heidelberg o Mainz." },
-    { "condition": "Freddo intenso (<0°C)", "tip": "Preferisci musei e mercatini; copriti bene per la sera in Sachsenhausen." },
-    { "condition": "Nebbia sul Main", "tip": "Skyline suggestiva per foto; rimanda Eiserner Steg se visibilità scarsa." }
+    { "condition": "Giornata asciutta", "tip": "Römerberg, Palmengarten, Eiserner Steg o gita a Heidelberg/Mainz." },
+    { "condition": "Caldo (>26°C)", "tip": "Lungomane del Main, beer garden e gite mattutine." },
+    { "condition": "Temporale", "tip": "Rimanda Eiserner Steg; preferisci musei o mercato coperto." }
   ],
   "links": [
     { "label": "DWD (servizio meteo tedesco)", "url": "https://www.dwd.de/EN/weather/weather_node.html" },

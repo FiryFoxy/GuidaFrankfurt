@@ -75,7 +75,7 @@ function renderTips(tips, erasmus) {
     <div class="weather-tips-grid">
       <div class="weather-panel">
         <h3 class="weather-panel-title">${tips.season.title}</h3>
-        <p class="text-sm text-[#588157] font-semibold mb-2">🌡️ ${tips.season.tempRange}</p>
+        <p class="text-sm text-[#2563B8] font-semibold mb-2">🌡️ ${tips.season.tempRange}</p>
         <ul class="weather-list">${tips.season.highlights.map(h => `<li>${h}</li>`).join('')}</ul>
       </div>
       <div class="weather-panel">
