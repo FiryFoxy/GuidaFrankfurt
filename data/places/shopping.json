@@ -17,7 +17,7 @@
     "icon": "🛍️",
     "note": "Shopping street",
     "hours": "Negozi lun-sab ~10:00–20:00",
-    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/shopping/zeil"
+    "url": "https://www.visitfrankfurt.travel/en/poi/zeil"
   },
   {
     "id": "shop-myzeil",
@@ -60,16 +60,6 @@
     "url": "https://www.kleinmarkthalle.de/"
   },
   {
-    "id": "shop-palmengarten",
-    "category": "shopping",
-    "title": "Palmengarten",
-    "desc": "Giardino botanico con serre tropicali, rose e laghetti. Shop con piante e regali; perfetto per una domenica rilassante.",
-    "icon": "🌴",
-    "note": "Giardino botanico",
-    "hours": "Feb–ott 09:00–18:00 · nov–gen 09:00–16:00",
-    "url": "https://www.palmengarten.de/"
-  },
-  {
     "id": "shop-mainkai",
     "category": "shopping",
     "title": "Museumsufer Flohmarkt",
@@ -107,7 +97,7 @@
     "icon": "👕",
     "note": "Economico",
     "hours": "Lun-Sab 10:00–20:00",
-    "url": "https://www.zeil.de/"
+    "url": "https://www.visitfrankfurt.travel/en/poi/zeil"
   },
   {
     "id": "shop-buchhandlung",

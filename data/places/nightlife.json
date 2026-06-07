@@ -7,7 +7,7 @@
     "icon": "🪩",
     "highlight": "Club & DJ",
     "hours": "Ven-Sab ~23:00–05:00 · eventi variabili",
-    "url": "https://www.kingkamehameha.de/"
+    "url": "http://kingkamehameha.de/"
   },
   {
     "id": "night-gibson",
@@ -27,7 +27,7 @@
     "icon": "🎵",
     "highlight": "Indie & Alternativo",
     "hours": "Ven-Sab eventi ~20:00–02:00",
-    "url": "https://www.tanzhaus-west.com/"
+    "url": "https://tanzhaus-west.de/"
   },
   {
     "id": "night-d8",
@@ -47,7 +47,7 @@
     "icon": "🍺",
     "highlight": "Kneipe",
     "hours": "Lun-Dom 17:00–01:00",
-    "url": "https://www.zumschweizer.de/"
+    "url": "http://zumschweizer.de/"
   },
   {
     "id": "night-batschkapp",
@@ -87,7 +87,7 @@
     "icon": "🍻",
     "highlight": "Craft Beer",
     "hours": "Lun-Sab 18:00–02:00 · Dom 18:00–24:00",
-    "url": "https://www.jimmysbar.de/"
+    "url": "http://jimmysbar.de/"
   },
   {
     "id": "night-pulse",
@@ -97,7 +97,7 @@
     "icon": "💃",
     "highlight": "Dance",
     "hours": "Ven-Sab ~23:00–05:00",
-    "url": "https://www.pulse-club.de/"
+    "url": "http://pulse-club.de/"
   },
   {
     "id": "night-alteoperbar",
@@ -117,7 +117,7 @@
     "icon": "🌈",
     "highlight": "Quartiere",
     "hours": "Bar tipicamente 19:00–02:00",
-    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/eating-drinking/nightlife"
+    "url": "https://www.visitfrankfurt.travel/en"
   },
   {
     "id": "night-hafen2",
@@ -147,7 +147,7 @@
     "icon": "🎓",
     "highlight": "Zona studenti",
     "hours": "Bar ~18:00–02:00",
-    "url": "https://www.frankfurt-tourismus.de/"
+    "url": "https://www.visitfrankfurt.travel/en/poi/leipziger-strasse"
   },
   {
     "id": "night-molly",
@@ -157,7 +157,7 @@
     "icon": "🍀",
     "highlight": "Pub & Live",
     "hours": "Lun-Dom 17:00–01:00",
-    "url": "https://www.mollymalones.de/"
+    "url": "http://mollymalones.de/"
   },
   {
     "id": "night-silo",

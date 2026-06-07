@@ -22,12 +22,12 @@
   {
     "id": "food-lorsbacher",
     "category": "food",
-    "title": "Zum Lorsbacher",
+    "title": "Lorsbacher Thal",
     "desc": "Tradizionale Wirtshaus in Sachsenhausen: ambiente rustico, birra locale e menu della regione. Ottimo per la prima cena «alla frankfurter».",
     "icon": "🍺",
     "note": "Wirtshaus",
     "hours": "Lun-Sab 11:00–23:00 · Dom 11:00–22:00",
-    "url": "https://www.zum-lorsbacher.de/"
+    "url": "https://www.lorsbacher-thal.de/"
   },
   {
     "id": "food-ernst",
@@ -47,7 +47,7 @@
     "icon": "🍽️",
     "note": "Tradizionale",
     "hours": "Lun-Sab 11:30–23:00 · Dom 12:00–22:00",
-    "url": "https://www.zurkanonesteppel.de/"
+    "url": "https://www.kanonesteppel.de/"
   },
   {
     "id": "food-vietnam",
@@ -137,7 +137,7 @@
     "icon": "🍣",
     "note": "Giapponese",
     "hours": "Lun-Dom 11:30–22:30",
-    "url": "https://www.sushimama.de/"
+    "url": "https://sushimama-ffm.de/"
   },
   {
     "id": "food-hausmarie",

@@ -7,7 +7,7 @@
     "icon": "🏛️",
     "location": "Altstadt",
     "hours": "Piazza sempre accessibile · Römer su prenotazione per visite guidate",
-    "url": "https://frankfurt.de/wohin/gehen/roemer"
+    "url": "https://www.visitfrankfurt.travel/en/poi/roemerberg-with-ostzeile"
   },
   {
     "id": "culture-staedel",
@@ -77,7 +77,7 @@
     "icon": "🖼️",
     "location": "Schaumainkai",
     "hours": "Orari per singolo museo · mercato sabato ~08:00–14:00",
-    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/art-culture/museums/museumsufer"
+    "url": "https://www.visitfrankfurt.travel/poi/museumsufer-frankfurt"
   },
   {
     "id": "culture-hauptwache",
@@ -87,7 +87,7 @@
     "icon": "📍",
     "location": "Innenstadt",
     "hours": "Piazza sempre accessibile",
-    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/sights/hauptwache"
+    "url": "https://www.visitfrankfurt.travel/en/poi/hauptwache-former-guard-house"
   },
   {
     "id": "culture-mainhattan",
@@ -97,6 +97,36 @@
     "icon": "🏙️",
     "location": "Innenstadt / Main",
     "hours": "Eiserner Steg: sempre aperto (pedonale)",
-    "url": "https://www.frankfurt-tourismus.de/en/experience-frankfurt/sights/eiserner-steg"
+    "url": "https://www.visitfrankfurt.travel/en/poi/footbridge-eiserner-steg"
+  },
+  {
+    "id": "culture-palmengarten",
+    "category": "culture",
+    "title": "Palmengarten",
+    "desc": "Grande giardino botanico con serre tropicali, palmeti, roseto e laghetti. Perfetto per una pausa verde o una domenica tranquilla vicino al Westend.",
+    "icon": "🌴",
+    "location": "Westend",
+    "hours": "Mar-ott 09:00–19:00 · nov-feb 09:00–16:00",
+    "url": "https://www.palmengarten.de/en/visit/palmengarten.html"
+  },
+  {
+    "id": "culture-ecb",
+    "category": "culture",
+    "title": "BCE / European Central Bank",
+    "desc": "Sede della Banca Centrale Europea nell'ex Großmarkthalle: architettura contemporanea, memoria storica e Visitor Centre su prenotazione.",
+    "icon": "🏦",
+    "location": "Ostend",
+    "hours": "Visitor Centre e visite: su prenotazione online",
+    "url": "https://www.ecb.europa.eu/ecb-and-you/visits/html/index.en.html"
+  },
+  {
+    "id": "culture-zoo",
+    "category": "culture",
+    "title": "Zoo Frankfurt",
+    "desc": "Zoo storico vicino al centro, comodo in U-Bahn e aperto tutto l'anno. Buona opzione per un pomeriggio leggero tra Exotarium, felini e aree verdi.",
+    "icon": "🦁",
+    "location": "Ostend",
+    "hours": "Tutti i giorni 09:00–19:00 in estate · 09:00–17:00 in inverno",
+    "url": "https://www.zoo-frankfurt.de/en/plan-your-visit/opening-hours"
   }
 ]

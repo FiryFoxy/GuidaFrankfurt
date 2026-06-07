@@ -9,6 +9,9 @@
   "culture-schaumainkai": { "lat": 50.1050, "lng": 8.6735 },
   "culture-hauptwache": { "lat": 50.1138, "lng": 8.6794 },
   "culture-mainhattan": { "lat": 50.1088, "lng": 8.6815 },
+  "culture-palmengarten": { "lat": 50.1235, "lng": 8.6550 },
+  "culture-ecb": { "lat": 50.1093, "lng": 8.7029 },
+  "culture-zoo": { "lat": 50.1154, "lng": 8.7027 },
 
   "food-kleinmarkthalle": { "lat": 50.1128, "lng": 8.6868 },
   "food-apfelwein-wagner": { "lat": 50.1012, "lng": 8.6892 },
@@ -50,7 +53,6 @@
   "shop-flohmarkt": { "lat": 50.1065, "lng": 8.6720 },
   "shop-nordwest": { "lat": 50.1575, "lng": 8.6320 },
   "shop-kleinmarkt": { "lat": 50.1128, "lng": 8.6868 },
-  "shop-palmengarten": { "lat": 50.1235, "lng": 8.6550 },
   "shop-mainkai": { "lat": 50.1050, "lng": 8.6735 },
   "shop-galeria": { "lat": 50.1140, "lng": 8.6850 },
   "shop-berger": { "lat": 50.1280, "lng": 8.7120 },
@@ -67,5 +69,7 @@
   "trip-cologne": { "lat": 50.9413, "lng": 6.9583 },
   "trip-marburg": { "lat": 50.8021, "lng": 8.7667 },
   "trip-bad-homburg": { "lat": 50.2266, "lng": 8.6182 },
-  "trip-darmstadt": { "lat": 49.8728, "lng": 8.6512 }
+  "trip-darmstadt": { "lat": 49.8728, "lng": 8.6512 },
+  "trip-eltville": { "lat": 50.0289, "lng": 8.1176 },
+  "trip-koblenz": { "lat": 50.3569, "lng": 7.5889 }
 }

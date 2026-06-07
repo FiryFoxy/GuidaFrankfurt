@@ -94,5 +94,29 @@
     "hours": "Mathildenhöhe 10:00–17:00",
     "icon": "🎨",
     "url": "https://www.darmstadt-tourismus.de/"
+  },
+  {
+    "id": "trip-eltville",
+    "category": "excursions",
+    "title": "Eltville am Rhein",
+    "desc": "Borgo del Rheingau tra vino, rose e passeggiata sul Reno: Altstadt medievale, Kurfürstliche Burg e cantine perfette per una giornata lenta.",
+    "transport": "RE/RB via Wiesbaden da Frankfurt Hauptbahnhof",
+    "time": "~55 min",
+    "cost": "Con Deutschland-Ticket sui regionali",
+    "hours": "Centro sempre accessibile · castello e tour con orari stagionali",
+    "icon": "🌹",
+    "url": "https://www.eltville.de/freizeit-tourismus/aufenthalt-service/information-in-english/highlights-sightseeing/"
+  },
+  {
+    "id": "trip-koblenz",
+    "category": "excursions",
+    "title": "Koblenz",
+    "desc": "Città alla confluenza di Reno e Mosella: Deutsches Eck, funivia sul Reno, fortezza Ehrenbreitstein e atmosfera da porta della Valle del Medio Reno UNESCO.",
+    "transport": "RE/ICE da Frankfurt Hauptbahnhof",
+    "time": "~1h25–1h50",
+    "cost": "Regional con Deutschland-Ticket · ICE a tariffa variabile",
+    "hours": "Centro sempre accessibile · funivia/fortezza stagionali",
+    "icon": "🚡",
+    "url": "https://www.visit-koblenz.de/en"
   }
 ]
