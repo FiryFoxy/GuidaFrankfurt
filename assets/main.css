@@ -1013,6 +1013,10 @@ h1, h2, h3, .serif-font {
 }
 
 /* Homepage */
+.vertical-center {
+    display: flex;
+    align-items: center; /* centra verticalmente */
+}
 .home-hero {
     background: linear-gradient(135deg, #1E4A7A 0%, #2563B8 55%, #6b8f71 100%);
     color: #FAF8F5;
