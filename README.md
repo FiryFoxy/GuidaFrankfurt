@@ -1,6 +1,6 @@
 # 🏙️ Guida Francoforte — Erasmus 2026
 
-Guida interattiva per il soggiorno Erasmus a Francoforte (**11 luglio – 12 agosto 2026**): musei, bar, mercati, gite e planner uscite.
+Guida interattiva per il soggiorno Erasmus a Francoforte (**10 luglio – 13 agosto 2026**): musei, bar, mercati, gite e planner uscite.
 
 ## Funzionalità
 

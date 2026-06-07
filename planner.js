@@ -1,8 +1,8 @@
-// Planner uscite Francoforte Erasmus — 11 luglio / 12 agosto 2026
+// Planner uscite Francoforte Erasmus — 10 luglio / 13 agosto 2026
 const PLANNER_KEY = 'uscitePlannerFrancoforte2026';
 const FAVORITES_KEY = 'favoritesFrancoforte2026';
-let START_DATE = '2026-07-11';
-let END_DATE = '2026-08-12';
+let START_DATE = '2026-07-10';
+let END_DATE = '2026-08-13';
 
 function setErasmusDates(start, end) {
   if (start) START_DATE = start;
